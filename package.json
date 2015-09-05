@@ -1,0 +1,21 @@
+{
+  "name": "change-me",
+  "version": "0.0.0",
+  "description": "ember-cli like for angular projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*-test.js -r ./tests/test-helper"
+  },
+  "keywords": [
+    "cli",
+    "angular",
+    "build-tools"
+  ],
+  "author": "Marcio Junior",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0",
+    "mocha-jshint": "^2.2.3"
+  }
+}
