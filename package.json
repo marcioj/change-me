@@ -2,7 +2,10 @@
   "name": "change-me",
   "version": "0.0.0",
   "description": "ember-cli like for angular projects",
-  "main": "index.js",
+  "main": "./lib/cli/index.js",
+  "bin": {
+    "ng": "./bin/ng"
+  },
   "scripts": {
     "test": "mocha tests/**/*-test.js -r ./tests/test-helper"
   },
@@ -17,5 +20,11 @@
     "chai": "^3.2.0",
     "mocha": "^2.3.0",
     "mocha-jshint": "^2.2.3"
+  },
+  "dependencies": {
+    "broccoli-funnel": "^0.2.8",
+    "ember-cli": "^1.13.8",
+    "ember-cli-string-utils": "^1.0.0",
+    "resolve": "^1.1.6"
   }
 }
